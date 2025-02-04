@@ -8,7 +8,10 @@
   </head>
   <body>
     <div id="app">home</div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/main.js">
+        import _ from "lodash";
+        alert(_.join)(["hello", "rollup"]," ");
+    </script>
     <a href="./about/">about page link</a>
   </body>
 </html>
